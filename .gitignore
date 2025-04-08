@@ -1,0 +1,30 @@
+
+---
+
+## 📁 `.gitignore` (for Jupyter + Python projects)
+
+```gitignore
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# VSCode settings (optional)
+.vscode/
+
+# Miscellaneous
+*.log
+*.zip
+*.csv~
